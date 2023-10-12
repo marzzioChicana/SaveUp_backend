@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin("/swagger-ui/index.html#")
+@CrossOrigin(origins = "*" , maxAge = 3600)
 @RestController
 @RequestMapping("/api/saveup/v1")
 public class CardController {
