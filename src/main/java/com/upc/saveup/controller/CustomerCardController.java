@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-@CrossOrigin("*")
+@CrossOrigin("/swagger-ui/index.html#")
 @RestController
 @RequestMapping("/api/saveup/v1")
 public class CustomerCardController {

@@ -18,7 +18,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.List;
 
-@CrossOrigin("*")
+@CrossOrigin("/swagger-ui/index.html#")
 @RestController
 @RequestMapping("/api/saveup/v1")
 public class ProductController {
